@@ -1,10 +1,17 @@
 import style9 from 'style9'
 
-const styles = style9.create({
-    blue: {
-        color: 'red',
-        background: '#ff9'
-    }
-})
+const someStyles = style9.create({
+  blue: {
+    color: 'blue',
+  }
+});
 
-document.body.className = styles('blue')
+const someOtherStyles = style9.create({
+  tilt: {
+    transform: 'rotate(0deg)'
+  }
+});
+
+
+document.body.className = style9(someStyles.blue, someOtherStyles['ti' + 'lt']);
+document.body.innerHTML = "<div>abcfffffffffffff</div>"
