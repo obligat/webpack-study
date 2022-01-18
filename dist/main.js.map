@@ -1,1 +1,0 @@
-{"version":3,"file":"main.js","mappings":";;;;;AAAA;AACA;AACA,C","sources":["webpack://webpack-simple/./src/index.js"],"sourcesContent":["const title = css`\n font-size: 18px;\n`"],"names":[],"sourceRoot":""}
